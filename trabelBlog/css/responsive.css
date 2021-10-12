@@ -1,0 +1,38 @@
+@media screen and (max-width: 767px) {
+
+	#global-nav {
+		overflow-x: scroll;
+	}
+
+	#pickup {
+		flex-direction: column;
+		margin-top: 140px;
+	}
+
+	.pickup-content {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	#main-area {
+		flex-direction: column;
+	}
+
+	#main-area main {
+		width: 100%;
+	}
+
+	#main-area aside {
+		width: 100%;
+		padding: 0;
+	}
+
+	footer .container {
+		flex-direction: column;
+	}
+
+	footer .footer-item {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+}
