@@ -1,0 +1,2 @@
+main #content{padding:120px 0 160px 0}main #item-list{display:flex;flex-wrap:wrap;justify-content:space-between}main .item{font-size:0.75em;margin-bottom:40px;width:23%}main .item img{width:100%;margin-bottom:5px}main #view-more{margin-top:20px;text-align:center;font-size:0.9em}main #paging{display:flex;justify-content:center;font-size:0.9em}main #paging a.current{pointer-events:none}main #paging li+li{margin-left:40px}
+/*# sourceMappingURL=index.css.map */

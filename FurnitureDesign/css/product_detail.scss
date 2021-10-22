@@ -1,0 +1,47 @@
+#content {
+	padding-top: 120px;
+}
+
+#datails {
+	max-width: 800px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#item-img {
+	width: 50%;
+}
+
+#item-img img {
+	width: 100%;
+}
+
+#item-text {
+	width: 42%;
+	font-size: 0.875rem;
+}
+
+#item-text p {
+	display: inline-block;
+	margin-bottom: 30px;
+	text-align: justify;
+}
+
+#item-text dl {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#item-text dt {
+	width: 30%;
+}
+
+#item-text dd {
+	width: 70%;
+}
+
+#back {
+	margin-top: 60px;
+	text-align: center;
+	font-size: 0.875rem;
+}

@@ -1,0 +1,27 @@
+@media screen and (max-width: 900px) {
+
+	#content .item {
+		width: 47%;
+	}
+
+	footer {
+		display: block;
+	}
+
+	#copywrite {
+		margin-top: 7px;
+	}
+
+	#item-img {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	#item-text {
+		width: 100%;
+	}
+
+	#datails {
+		flex-flow: column;
+	}
+}

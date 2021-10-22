@@ -1,0 +1,39 @@
+main {
+
+	#item-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.item {
+		font-size: 0.75em;
+		margin-bottom: 40px;
+		width: 23%;
+
+		img {
+			width: 100%;
+			margin-bottom: 5px;
+		}
+	}
+
+	#view-more {
+		margin-top: 20px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+
+	#paging {
+		display: flex;
+		justify-content: center;
+		font-size: 0.9em;
+	}
+
+	#paging a.current {
+		pointer-events: none;
+	}
+
+	#paging li +li {
+		margin-left: 40px;
+	}
+}
